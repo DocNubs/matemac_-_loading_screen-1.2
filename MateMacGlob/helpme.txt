@@ -1,0 +1,94 @@
+HELP ME FILE 
+by Victor.R for the version 1 of MateMac
+/////////////////////////////////////////////////////PLEASE BUY IT ON SCRIPTFODDER///////////////////////////////////////////////
+
+
+thanks you :D 
+
+//Help//
+
+MateMac needs to be on a web hosting.
+
+How to use it ?
+
+Put the folder "MateMacGlob" in the ftp of you web hosting.
+Now go to www.yoururl.com/MateMacGlob/MateMac/?steamid=%s,
+If you get your loader, it's installed.
+
+BUT you need to configure it. So go to MateMacGlob/MateMac/index.php,
+open it with for example sublime text and start editing the code.
+
+
+//CHANGE BACKGROUND//
+Replace the file demo_background.jpg in MateMacGlob/MateMac/assets/
+by your image. Then change the url in MateMacGlob/MateMac/index.php by your image name and extension.
+
+EXAMPLE:
+
+I put lol.png in assets, it's my background. 
+So now I got in MateMacGlob/MateMac/index.php and I change
+
+
+
+    <img src="assets/demo_background.jpg"><!--Change your background url here (image located in assets folder)-->
+    BY
+    <img src="assets/lol.png"><!--Change your background url here (image located in assets folder)-->
+
+
+
+
+
+//CHANGE ADDONS CATEGORY IN INFOS TAB//
+Just replace "Addons" in MateMacGlob/MateMac/index.php by what you want.
+
+EXAMPLE:
+
+I want to change "Addons" by "car dealer",
+So now I got in MateMacGlob/MateMac/index.php and I change
+
+
+
+    <li><img src="assets/extensions.png"> <span>Addons</span></li>
+    BY
+    <li><img src="assets/extensions.png"> <span>car dealer</span></li>
+
+
+
+
+
+//CHANGE RULES//
+Replace the rules in MateMacGlob/MateMac/index.php  by yours.
+
+
+
+
+
+
+//CHANGE SONG
+Replace the file song.ogg in MateMacGlob/MateMac/songs/
+by your ogg file. Then change the url in MateMacGlob/MateMac/index.php by your file name.
+
+EXAMPLE:
+
+I put fun.mp3 in songs, it's my song. 
+So now I got in MateMacGlob/MateMac/index.php and I change
+
+
+
+    <audio class='audio' autoplay ><!--Song is in the folder songs-->
+    <source type='audio/ogg' src='songs/song.ogg'>
+    </audio>
+    BY
+    <audio class='audio' autoplay ><!--Song is in the folder songs-->
+    <source type='audio/ogg' src='songs/fun.ogg'>
+    </audio>
+
+
+PS:SONG IN OGG
+
+Thanks you
+
+Victor.R
+
+
+
